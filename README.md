@@ -32,7 +32,7 @@ The data used in this project was web scraped using beautiful soup from two webs
 
 ## Findings
 
-The best performing model was built by GradientBoostingRegressor() using grid search cross validation and a hyperparameter grid - the mean absolute percent error of the model was 33%. The feature importance graph of this model showed that franchise was an important feature in correctly predicting the target. In response, more franchise related predictors were added to the model in the form of a binary matrix, resulting in an improvement of the model. The final model was able to predict the lifetime adjusted gross of a movie, on average, with an error of +/- 30%. 
+The best performing model was built by GradientBoostingRegressor() using grid search cross validation and a hyperparameter grid - the mean absolute percent error of the model was 31%. The feature importance graph of this model showed that franchise was an important feature in correctly predicting the target. In response, more franchise related predictors were added to the model in the form of a binary matrix, resulting in an improvement of the model. The final model was able to predict the lifetime adjusted gross of a movie, on average, with an error of +/- 30%. 
 
 
 ## Table of Contents
